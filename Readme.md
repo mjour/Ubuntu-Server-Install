@@ -171,6 +171,21 @@ sudo systemctl reload apache2
 ```
 sudo a2ensite apache.mark.com.conf
 ```
+## 6. You are ready now check by typing your URL to the browser. You can test by writing a simple PHP script in /var/www/subdomains/apache/ folder.
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SubDomain Page</title>
+  </head>
+  <body>
+    <div>
+      <?php echo phpinfo(); ?>
+    </div>
+  </body>
+</html>
+```
 # Reference
 ## Domain Create
 https://www.geeksforgeeks.org/creating-custom-domain-name-instead-of-localhost-in-ubuntu/
