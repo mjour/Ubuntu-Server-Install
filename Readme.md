@@ -12,6 +12,7 @@ sudo apt-get install apache2 php
 ```
 sudo mkdir -p /home/mark/www
 sudo chmod -R 755 /home/mark/www
+sudo chmod -R 751 /home/mark/
 ```
 # 3. Create domain name in your hosts file under ‘/etc/hosts’
 
